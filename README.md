@@ -14,11 +14,9 @@ The goal of the Virtual Enterprise Network Security Lab project was to create a 
 - Development of structured troubleshooting skills through resolving TLS handshake failures, routing problems, and firewall configuration issues.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+
+-VirtualBox -pfSense -OpenVPN -VirtualBox VM's,(Windows 10 server, Kali Linux,Linux Ubuntu) OpenVPN GUI (for VPN tunnels from host) -Command-Line tools (ping,ipconfig,nslookup,etc)
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
