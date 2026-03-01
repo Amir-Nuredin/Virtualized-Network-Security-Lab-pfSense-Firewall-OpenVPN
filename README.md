@@ -2,16 +2,18 @@
 
 ## Objective
 
-The goal of the Virtual Enterprise Network Security Lab project was to create a fully segmented virtual network environment utilizing a pfSense firewall and an OpenVPN remote access solution. The key objectives were to set up internal network segmentation, firewall rules, NAT, and certificate-based VPN authentication to mimic a real-world enterprise edge network scenario. This hands-on lab experience has provided me with a better understanding of routing, firewall rule processing, public key infrastructure (PKI), and secure remote access while learning to solve real-world networking issues.
+This project is intended to outline the design and implementation of a virtualized enterprise network security lab, using pfSense as the perimeter firewall and OpenVPN as the secure remote access solution. The lab has been designed to simulate an enterprise network environment, with multiple internal virtual machines located across the network, along with the implementation of various security solutions that can be commonly found in an enterprise network environment.
 
 ### Skills Learned
 
+This project has provided hands-on experience with the following security solutions:
 
-- Advanced knowledge of firewall configuration, interface-based rule sets, and network segmentation utilizing pfSense.
-- Practical experience in implementing and troubleshooting a certificate-based OpenVPN solution for remote access VPN.
-- Familiarity with configuring routing, NAT, and communication between multiple networks within a virtualized environment.
-- Development of enhanced knowledge of VPN tunneling, TLS authentication, and encrypted remote access.
-- Development of structured troubleshooting skills through resolving TLS handshake failures, routing problems, and firewall configuration issues.
+- Firewall rule configurations and policy enforcement
+- Network segmentation, along with routing between networks
+- Network Address Translation (NAT) configurations
+- Public Key Infrastructure (PKI)
+- TLS-based authentication for the Virtual Private Network (VPN)
+- Packet-level traffic analysis, using the Wireshark tool
 
 ### Tools Used
 
@@ -124,11 +126,13 @@ IM17: Successful SSH connection from the host machine to Kali Linux
 
 
    ## Conclusion: 
-   This Virtual Network Security Lab was successful in its attempt to simulate a real-world enterprise edge network environment using the tools pfSense and OpenVPN. By employing various techniques such as network segmentation, interface-based firewall rules, and certificate-based VPN authentication, I was able to create a secure routed network infrastructure, which is similar to a real-world network security environment. 
+   This virtualized network security lab has been successfully implemented to demonstrate the deployment of a secure and segmented enterprise network topology using pfSense and OpenVPN tools.
 
-  Through the successful completion of this project, I have further enhanced my knowledge of routing logic, the processing of firewall rules, the implementation of PKIs, and the configuration of secure remote access infrastructure. Troubleshooting VPN connectivity, TLS handshake, and subnet communication issues has further enhanced my ability to troubleshoot real-world networking issues in a systematic manner.
+  In the course of this project implementation, several technical issues were overcome, including the configuration of the routing protocol in the VPN, the ordering of the rules in the pfSense firewall, the troubleshooting of the TLS authentication protocol, and the validation of the communication on the subnets.
 
-  This project has been successful in its attempt to bridge the gap between the theoretical concepts of network security and its practical implementation, which can be used to secure enterprise networks as well as remote access infrastructure.
+  This project fills the gap in the implementation of network security concepts and their practical application in the enterprise network security arena. This project enhances the implementation of basic network security concepts such as the management of firewalls, the implementation of VPNs, the implementation of the PKI protocol, and the inspection of network traffic, which are crucial in the security of enterprise network environments.
+
+The future development of this project may be extended to the implementation of IDS/IPS, VLANs, and the use of multi-factor authentication in the VPN protocol.
 
 
    
